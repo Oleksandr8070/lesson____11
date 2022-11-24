@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+    font-family: "Lato",sans-serif;
+    font-size: 400;
+}
+.wrapper{
+    position: relative;
+    min-height: 100%;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top:0;
+    height: 90px;
+    background-color: aqua ;
+    z-index: 100;   
+   
+}
+.section{
+    background-color: black;
+    padding: 50px;
+    margin-top: 150px;
+    position: relative;
+    height: 800px;
+}
+.items__item{
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;        
+}
+.items__item--bg-brown{
+    background-color: brown;
+}
+.items__item--bg-red{
+    background-color: red;
+}
+.items__item--bg-blu{
+    background-color: blue;
+}
+.section__second{
+    background-color: blueviolet;
+    padding: 40px;
+    margin-top: 150px;
+    position: relative;
+    height: 500px;
+}
+.items__item__absolute{
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+}
+.items__item__absolute__second{
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+}
+.items__item__absolute__third{
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;    
+}
+.section__third{
+    background-color: coral;
+    padding: 90px;
+    margin-top: 150px;
+    height: 600px;
+  
+}
+.items__item__zindex{
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+    position: relative;
+    z-index: 80; 
+    padding: 15px;
+}
+.items__item__zindex__second{
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+    bottom: 40px;
+    position: relative;   
+}
+.items__item__zindex__third{
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+    padding: 15px;
+    
+}
+.section__fourth{
+    background-color:burlywood;
+    padding: 90px;
+    margin-top: 150px;
+    height: 1900px;
+    
+ 
+}
+.items__item__stick{
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+    padding: 15px;
+    position: sticky;
+    top: 70px;
+    
+}
+.items__item__stick__second{
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+    padding: 15px;
+    position: sticky;
+
+}
+.items__item__stick__third{
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+    padding: 15px;
+    position: sticky;
+}
+
